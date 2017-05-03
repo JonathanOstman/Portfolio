@@ -84,11 +84,10 @@ nav a:hover {
 }
 .about-header {
   text-align: center;
-  margin-top: 25px;
+  margin: 25px 0;
 }
 .about-me {
-  margin-top: 20px;
-  padding: 0 150px;
+  margin: 0 150px;
   font-size: 25px;
   text-align: center;
 }
@@ -124,7 +123,13 @@ footer {
   bottom: 0;
   text-align: center;
 }
-
+@media (max-width: 800px) {
+.about-me {
+  margin: 0 30px;
+  font-size: 20px;
+    font-size: 18px;
+   }
+}
 
 
 
